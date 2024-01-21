@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 const book_1 = require("../book");
 const store = new book_1.BookStore();
-describe("Book Model", () => {
+describe('Book Model', () => {
     it('should have an index method', () => {
         expect(store.index).toBeDefined();
     });
