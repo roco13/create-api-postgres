@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express_1 = __importDefault(require("express"));
 const body_parser_1 = __importDefault(require("body-parser"));
 const app = (0, express_1.default)();
-const address = "0.0.0.0:3000";
+const address = '0.0.0.0:3000';
 app.use(body_parser_1.default.json());
 app.get('/', function (req, res) {
     res.send('Hello World!');
